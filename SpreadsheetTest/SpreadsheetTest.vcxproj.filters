@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\OriginalFiles">
+      <UniqueIdentifier>{d2f62c13-6268-4eba-8ed2-ee59235b24ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OriginalFiles">
+      <UniqueIdentifier>{1ba094de-c382-4cb7-a568-fc0ffa680831}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mock_cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\cellfactory.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\cell.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\simplecell.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\expression.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\expression_impl.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\sheet.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Spreadsheet\expressioncell.h">
+      <Filter>Header Files\OriginalFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cell_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spreadsheet\cell.cpp">
+      <Filter>Source Files\OriginalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spreadsheet\cellfactory.cpp">
+      <Filter>Source Files\OriginalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spreadsheet\simplecell.cpp">
+      <Filter>Source Files\OriginalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="simplecell_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellfactory_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spreadsheet\expression.cpp">
+      <Filter>Source Files\OriginalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="expression_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sheet_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spreadsheet\sheet.cpp">
+      <Filter>Source Files\OriginalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Spreadsheet\expressioncell.cpp">
+      <Filter>Source Files\OriginalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="spreadsheet_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

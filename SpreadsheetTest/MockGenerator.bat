@@ -1,0 +1,1 @@
+python %EXTLIBPATH%/gmock/scripts/generator/gmock_gen.py ../Spreadsheet/Cell.h CellAbstract >> CellMock.inc
